@@ -23,7 +23,7 @@ class human
 }
 
 
-class Encaps
+public class Encaps
 {
     public static void main(String[] args) {
 
@@ -32,5 +32,6 @@ class Encaps
         obj.setname(in.nextLine());    // the private variable can be accessible by methods 
         obj.setage(in.nextInt());
         System.err.println(obj.getage() + " :" + obj.getname());
+        in.close();
     }
 }
